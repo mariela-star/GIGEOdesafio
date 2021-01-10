@@ -3,12 +3,16 @@
         &__mensaje {
             background-color: #EF6461;
             border: none;
-            padding: 10px 15px;
+            padding: 5px 15px;
+            font-family: open-sans;
+            font-weight: $regular;
         }
         &__seguir {
             background-color: #92DCE5;
             border: none;
-            padding: 10px 15px;
+            padding: 5px 15px;
+            font-family: open-sans;
+            font-weight: $regular;
         }
     }
 }

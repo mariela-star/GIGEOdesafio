@@ -9875,27 +9875,8 @@ h3 {
     border-color: #dee2e6;
   }
 }
-h2, h4, h5 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 14;
-}
-h2__h4, h4__h4, h5__h4 {
-  font-size: 14;
-}
-h2__h5, h4__h5, h5__h5 {
-  font-weight: 400;
-  font-size: 12;
-}
-
-h3, p {
-  font-family: "Montserrat";
-  font-weight: 16;
-  font-size: 14;
-}
-h3__p, p__p {
-  font-weight: 400;
-  font-size: 12;
+h2, h3, h4, h5, p {
+  font-family: "Montserrat", open-sans;
 }
 
 .contenedor__nav {
@@ -9939,6 +9920,8 @@ h3__p, p__p {
 
 [class^=profile__buttons] {
   color: #fff;
+  font-size: 12;
+  margin-left: auto;
 }
 
 .contenedor__nav__lista i {
@@ -9957,12 +9940,16 @@ h3__p, p__p {
 .profile__buttons__mensaje {
   background-color: #EF6461;
   border: none;
-  padding: 10px 15px;
+  padding: 5px 15px;
+  font-family: open-sans;
+  font-weight: 400;
 }
 .profile__buttons__seguir {
   background-color: #92DCE5;
   border: none;
-  padding: 10px 15px;
+  padding: 5px 15px;
+  font-family: open-sans;
+  font-weight: 400;
 }
 
 .profile__perfil__img-perfil {
