@@ -9876,7 +9876,7 @@ h3 {
   }
 }
 h2, h3, h4, h5, p {
-  font-family: "Montserrat", open-sans;
+  font-family: "Montserrat", "open-sans";
 }
 
 .contenedor__nav {
@@ -9914,7 +9914,7 @@ h2, h3, h4, h5, p {
 }
 
 .contenedor__main__frase {
-  font-family: "Montserrat", open-sans;
+  font-family: "Montserrat", "open-sans";
   font-size: 12px;
   font-weight: 400;
   margin: 10px 0;
@@ -9939,6 +9939,7 @@ h2, h3, h4, h5, p {
 
 [class^=profile__buttons] {
   color: #fff;
+  font-family: "open-sans";
   font-size: 12;
   margin-left: auto;
 }
