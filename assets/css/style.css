@@ -9901,6 +9901,25 @@ h2, h3, h4, h5, p {
   width: 100%;
 }
 
+.contenedor__main__titulo {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.contenedor__main__subtitulo {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contenedor__main__frase {
+  font-family: "Montserrat", open-sans;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
@@ -9966,6 +9985,7 @@ h2, h3, h4, h5, p {
 }
 .profile__perfil__nombres h2 {
   font-size: 22px;
+  font-weight: 700;
 }
 .profile__perfil__nombres p {
   font-size: 14px;
