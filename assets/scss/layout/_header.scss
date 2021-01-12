@@ -1,9 +1,24 @@
-.contenedor {
-  &__header {
-    height: 200px;
-    background-image: url(../img/image-banner.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
+//Media Queris para diseño mobile (extra small and small devices
+@media only screen and (max-width: 767.98px) {
+  .contenedor {
+    &__header {
+      height: 200px;
+      background-image: url(../img/image-banner.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor {
+    &__header {
+      height: 200px;
+      background-image: url(../img/image-banner.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
